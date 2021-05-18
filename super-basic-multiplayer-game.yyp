@@ -1,8 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"scr_get_hover","path":"scripts/scr_get_hover/scr_get_hover.yy",},"order":0,},
     {"id":{"name":"sp_player","path":"sprites/sp_player/sp_player.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},"order":0,},
+    {"id":{"name":"obj_gui_button","path":"objects/obj_gui_button/obj_gui_button.yy",},"order":1,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
