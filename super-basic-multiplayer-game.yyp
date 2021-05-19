@@ -12,6 +12,7 @@
     {"id":{"name":"scr_create_button","path":"scripts/scr_create_button/scr_create_button.yy",},"order":1,},
     {"id":{"name":"scr_goto_sp_game","path":"scripts/scr_goto_sp_game/scr_goto_sp_game.yy",},"order":3,},
     {"id":{"name":"obj_gui_button","path":"objects/obj_gui_button/obj_gui_button.yy",},"order":1,},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -27,7 +28,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_lobby","path":"rooms/rm_lobby/rm_lobby.yy",},},
     {"roomId":{"name":"rm_sp_game","path":"rooms/rm_sp_game/rm_sp_game.yy",},},
     {"roomId":{"name":"rm_mp_game","path":"rooms/rm_mp_game/rm_mp_game.yy",},},
