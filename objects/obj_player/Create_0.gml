@@ -1,5 +1,6 @@
 /// @description create event
 
+playerName = "Player ?";
 playerColors = [c_lime, c_fuchsia];
 colorPlayer = playerColors[(instance_number(object_index) - 1) || 0];
 colorFire = c_red;
