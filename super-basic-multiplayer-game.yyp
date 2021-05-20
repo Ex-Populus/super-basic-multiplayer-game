@@ -19,6 +19,7 @@
     {"id":{"name":"protobuild_size","path":"scripts/protobuild_size/protobuild_size.yy",},"order":15,},
     {"id":{"name":"protobuild_decode_value","path":"scripts/protobuild_decode_value/protobuild_decode_value.yy",},"order":8,},
     {"id":{"name":"scr_spawn_player","path":"scripts/scr_spawn_player/scr_spawn_player.yy",},"order":16,},
+    {"id":{"name":"obj_lockstep","path":"objects/obj_lockstep/obj_lockstep.yy",},"order":4,},
     {"id":{"name":"rm_mp_game","path":"rooms/rm_mp_game/rm_mp_game.yy",},"order":3,},
     {"id":{"name":"rm_sp_game","path":"rooms/rm_sp_game/rm_sp_game.yy",},"order":2,},
     {"id":{"name":"scr_cb_registration","path":"scripts/scr_cb_registration/scr_cb_registration.yy",},"order":10,},
