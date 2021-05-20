@@ -19,7 +19,7 @@
     {"id":{"name":"protobuild_size","path":"scripts/protobuild_size/protobuild_size.yy",},"order":15,},
     {"id":{"name":"protobuild_decode_value","path":"scripts/protobuild_decode_value/protobuild_decode_value.yy",},"order":8,},
     {"id":{"name":"scr_spawn_player","path":"scripts/scr_spawn_player/scr_spawn_player.yy",},"order":16,},
-    {"id":{"name":"obj_lockstep","path":"objects/obj_lockstep/obj_lockstep.yy",},"order":4,},
+    {"id":{"name":"obj_lockstep","path":"objects/obj_lockstep/obj_lockstep.yy",},"order":1,},
     {"id":{"name":"rm_mp_game","path":"rooms/rm_mp_game/rm_mp_game.yy",},"order":3,},
     {"id":{"name":"rm_sp_game","path":"rooms/rm_sp_game/rm_sp_game.yy",},"order":2,},
     {"id":{"name":"scr_cb_registration","path":"scripts/scr_cb_registration/scr_cb_registration.yy",},"order":10,},
@@ -90,6 +90,7 @@
     {"folderPath":"folders/Scripts/netcode_internals.yy","order":5,"resourceVersion":"1.0","name":"netcode_internals","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/netcode_internals/relay.yy","order":1,"resourceVersion":"1.0","name":"relay","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/netcode_internals/protocol.yy","order":2,"resourceVersion":"1.0","name":"protocol","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/controllers.yy","order":8,"resourceVersion":"1.0","name":"controllers","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
