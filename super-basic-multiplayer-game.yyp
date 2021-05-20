@@ -44,6 +44,7 @@
     {"id":{"name":"scr_cb_player_sync","path":"scripts/scr_cb_player_sync/scr_cb_player_sync.yy",},"order":8,},
     {"id":{"name":"scr_goto_sp_game","path":"scripts/scr_goto_sp_game/scr_goto_sp_game.yy",},"order":3,},
     {"id":{"name":"netcode_relay_cn","path":"scripts/netcode_relay_cn/netcode_relay_cn.yy",},"order":0,},
+    {"id":{"name":"obj_connection","path":"objects/obj_connection/obj_connection.yy",},"order":3,},
     {"id":{"name":"protobuild_cleanup","path":"scripts/protobuild_cleanup/protobuild_cleanup.yy",},"order":5,},
     {"id":{"name":"obj_gui_button","path":"objects/obj_gui_button/obj_gui_button.yy",},"order":1,},
     {"id":{"name":"sp_wall","path":"sprites/sp_wall/sp_wall.yy",},"order":1,},
