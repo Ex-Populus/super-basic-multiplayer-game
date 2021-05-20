@@ -22,6 +22,7 @@
     {"id":{"name":"rm_mp_game","path":"rooms/rm_mp_game/rm_mp_game.yy",},"order":3,},
     {"id":{"name":"rm_sp_game","path":"rooms/rm_sp_game/rm_sp_game.yy",},"order":2,},
     {"id":{"name":"scr_cb_registration","path":"scripts/scr_cb_registration/scr_cb_registration.yy",},"order":10,},
+    {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},"order":0,},
     {"id":{"name":"protobuild_import","path":"scripts/protobuild_import/protobuild_import.yy",},"order":12,},
     {"id":{"name":"protobuild_buffer_resize","path":"scripts/protobuild_buffer_resize/protobuild_buffer_resize.yy",},"order":4,},
     {"id":{"name":"protobuild_buffer_reset","path":"scripts/protobuild_buffer_reset/protobuild_buffer_reset.yy",},"order":3,},
