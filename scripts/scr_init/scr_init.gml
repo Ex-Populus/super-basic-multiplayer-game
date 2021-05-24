@@ -47,5 +47,4 @@ function scr_init() {
 
 	// Go to room
 	room_goto(rm_lobby);
-
 }

@@ -9,15 +9,3 @@ var kDown = (keyboard_check(vk_down) || keyboard_check(ord("S")));
 input_hin = (kRight - kLeft) * moveSpeed;
 input_vin = (kUp - kDown) * moveSpeed;
 input_fire = kFire;
-
-
-// original code from example project:
-//
-// var left = keyboard_check(vk_left);
-// var right = keyboard_check(vk_right);
-// var up = keyboard_check(vk_up);
-// var down = keyboard_check(vk_down);
-
-// input_hin = (right - left) * 100;
-// input_buttons |= (up & 0x1) << 0;
-// input_buttons |= (down & 0x1) << 1;

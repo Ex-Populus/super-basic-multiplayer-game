@@ -8,17 +8,9 @@ function scr_collect_inputs() {
 	}
 
 	var frame = argument[0];
-
-	if(argument_count > 1) {
-		var zero = argument[1];
-	}
-	else {
-		var zero = false;	
-	}
-
-	var input_hin = 0;
-	var input_buttons = 0;
-	var input_aim = 0;
+	var zero = (argument_count > 1) 
+		? argument[1]
+		: false;
 
 	var input_map = ds_map_create()
 	ds_map_add(input_map, "id", player_id);
