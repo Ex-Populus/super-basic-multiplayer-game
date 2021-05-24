@@ -21,8 +21,14 @@ function scr_cb_player_input(argument0) {
 			}
 		
 			// update latest frame for tracking
-			if(other_id != player_id and other_frame > input_latest_frame) {
-				input_latest_frame = other_frame;	
+			// TODO: (RN) Figure out the other_id !- player_id issue here
+			//       For some reason they're always equal and input_latest_frame is never updated
+			//       Turned it off for now
+			//if(other_id != player_id and other_frame > input_latest_frame) {
+			//	input_latest_frame = other_frame;	
+			//}
+			if(other_frame > input_latest_frame) {
+				input_latest_frame = other_frame;
 			}
 		
 			// update instance
