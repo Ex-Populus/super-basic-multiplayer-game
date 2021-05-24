@@ -3,6 +3,11 @@
 /// @return       returns instance number of spawned player
 function scr_spawn_player() {
 
+	if (!instance_exists(obj_spawner)) {
+		var errorMessage = "Missing obj_spawner when trying to spawn player in room " + room_get_name(room) + "!";
+		throw errorMessage;
+	}
+
 	// if spawner exists on the map with player info
 	with(obj_spawner) {
 		// do nothing if player info list is empty
