@@ -33,6 +33,7 @@ if(get_timer() >= frame_time_next) {
 				if(i_am >= 0 and i_am < session_players) { // if greater, then is a spectator
 					player_number = i_am;
 					player_inst = scr_spawn_player(player_number); // spawn player
+					show_debug_message("Found player " + string(player_inst));
 					ds_list_replace(instance_list, player_number, player_inst);
 				}
 				

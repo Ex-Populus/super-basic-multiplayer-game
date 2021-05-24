@@ -25,6 +25,7 @@ debug_text = "Registration"
 debug_text2 = ""
 
 player_id = irandom(0x7FFFFFFF); // random player ID
+show_debug_message("player_id assigned " + string(player_id));
 player_list = ds_list_create(); // list of registered players (their index represents the player number)
 instance_list = ds_list_create(); // list of matching player instances
 frame_list = ds_list_create(); // list of recieved data for the frame (used for lockstep)
