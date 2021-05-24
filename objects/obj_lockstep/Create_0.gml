@@ -38,7 +38,9 @@ player_inst = undefined;
 #endregion GAME STATE MACHINE
 
 #region LOCKSTEP SETUP
-session_players = 2; // number of players in this session
+// TODO: (RN) Change session_players back to 2 after debugging is complete!
+//session_players = 2; // number of players in this session
+session_players = 1; // number of players in this session
 
 frame_number = 0; // initial frame number, always 0
 frame_skip = 2; // finds ratio of game frames to room speed.  frame_skip+1/room_speed is the real rate
