@@ -72,7 +72,7 @@ if(get_timer() >= frame_time_next) {
 			}
 			
 		case GAMESTATE.go:
-			// main  game state.
+			// main game state.
 			
 			debug_text = ""
 			
@@ -80,7 +80,7 @@ if(get_timer() >= frame_time_next) {
 			var num_inputs = scr_check_inputs(frame_number)
 			
 			// check if we need to update the simulation and advance frame numbers
-			if(predict_number and (is_undefined(predict_last_inputs) or  num_inputs > predict_last_inputs)) {
+			if(predict_number and (is_undefined(predict_last_inputs) or num_inputs > predict_last_inputs)) {
 				debug_text = "Rollback to " + string(frame_number) + " and fast-forward to " + string(frame_number + predict_number) + " "
 				show_debug_message(debug_text);
 					

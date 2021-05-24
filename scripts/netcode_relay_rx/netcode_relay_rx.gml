@@ -18,7 +18,7 @@ function netcode_relay_rx() {
 		var size = buffer_get_size(buff);	
 	}
 
-	//show_debug_message("RX: " + string(size));
+	show_debug_message("RX: " + string(size));
 	protobuild_decode_to_map(buff, size);
 
 }
