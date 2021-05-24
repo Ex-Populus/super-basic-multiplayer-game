@@ -20,4 +20,4 @@ input_hin = 0;
 input_vin = 0;
 input_fire = 0;
 
-debug_text = "Input: "
+debug_text = "Input: --"
