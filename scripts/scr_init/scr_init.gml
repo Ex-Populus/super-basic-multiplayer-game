@@ -25,8 +25,8 @@ function scr_init() {
 	protobuild_msg_add_value("player_input", "id", PROTOBUILD_TYPE.u32, 0);
 	protobuild_msg_add_value("player_input", "frame", PROTOBUILD_TYPE.u32, 0);
 	protobuild_msg_add_value("player_input", "hin", PROTOBUILD_TYPE.s8, 0);
-	protobuild_msg_add_value("player_input", "buttons", PROTOBUILD_TYPE.u8, 0);
-	protobuild_msg_add_value("player_input", "aim", PROTOBUILD_TYPE.u16, 0);
+	protobuild_msg_add_value("player_input", "vin", PROTOBUILD_TYPE.s8, 0);
+	protobuild_msg_add_value("player_input", "fire", PROTOBUILD_TYPE.u16, 0);
 
 	// Ping message
 	protobuild_add_msg("ping", scr_cb_ping);

@@ -31,7 +31,7 @@ function scr_cb_player_input(argument0) {
 				with(instance) {
 					// TODO: possibly check if this value exists
 					var buff_map = ds_list_create()
-					ds_list_add(buff_map, ds_map_find_value(msg_map, "hin"), ds_map_find_value(msg_map, "buttons"), ds_map_find_value(msg_map, "aim"));
+					ds_list_add(buff_map, ds_map_find_value(msg_map, "hin"), ds_map_find_value(msg_map, "vin"), ds_map_find_value(msg_map, "fire"));
 					ds_priority_add(input_buffer, buff_map, other_frame);
 				}
 			}

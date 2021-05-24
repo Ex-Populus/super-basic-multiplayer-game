@@ -21,8 +21,8 @@ function scr_collect_inputs() {
 		with(obj_input) {
 			event_user(0);
 			ds_map_add(input_map, "hin", latch_hin);
-			ds_map_add(input_map, "buttons", latch_buttons);
-			ds_map_add(input_map, "aim", latch_aim);
+			ds_map_add(input_map, "vin", latch_vin);
+			ds_map_add(input_map, "fire", latch_fire);
 		}
 	}
 
