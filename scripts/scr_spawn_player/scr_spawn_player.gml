@@ -15,9 +15,14 @@ function scr_spawn_player() {
 			show_debug_message("### [WARN] ==> Empty playersInfo! - " + string(ds_list_size(playersInfo)));
 			return;
 		}
-
+		
 		// assign a player number based on the current player count
 		var playerNumber = ds_list_size(players) + 1;
+		
+		// ... but use a number if one was passed in
+		if (argument_count == 1) {
+			playerNumber = argument0;
+		}
 
 		// find the next player info from the list
 		var playerInfo = ds_list_find_value(playersInfo, 0);
