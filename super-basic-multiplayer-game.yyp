@@ -37,6 +37,7 @@
     {"id":{"name":"netcode_relay_tx","path":"scripts/netcode_relay_tx/netcode_relay_tx.yy",},"order":3,},
     {"id":{"name":"protobuild_decode_to_array","path":"scripts/protobuild_decode_to_array/protobuild_decode_to_array.yy",},"order":6,},
     {"id":{"name":"scr_create_button","path":"scripts/scr_create_button/scr_create_button.yy",},"order":1,},
+    {"id":{"name":"scr_cb_cn_fail","path":"scripts/scr_cb_cn_fail/scr_cb_cn_fail.yy",},"order":17,},
     {"id":{"name":"scr_cb_pong","path":"scripts/scr_cb_pong/scr_cb_pong.yy",},"order":9,},
     {"id":{"name":"protobuild_decode_to_map","path":"scripts/protobuild_decode_to_map/protobuild_decode_to_map.yy",},"order":7,},
     {"id":{"name":"protobuild_add_msg","path":"scripts/protobuild_add_msg/protobuild_add_msg.yy",},"order":0,},

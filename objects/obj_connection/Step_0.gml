@@ -4,7 +4,7 @@ switch(conn_state) {
 	case STATE.relay_connect:
 		debug_text = "Initialize server connection..."
 	
-		server_socket = netcode_create_connection(server_addr, server_port, network_socket_udp, netcode_relay_rx, netcode_relay_cn, netcode_relay_dc);
+		server_socket = netcode_create_connection(server_addr, server_port, network_socket_udp, netcode_relay_rx, netcode_relay_cn, netcode_relay_dc, scr_cb_cn_fail);
 		show_debug_message("Starting new connection to " + server_addr + ":" + string(server_port))
 		conn_state = STATE.relay_connecting;
 		
