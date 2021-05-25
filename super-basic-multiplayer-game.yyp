@@ -15,6 +15,7 @@
     {"id":{"name":"scr_goto_lobby","path":"scripts/scr_goto_lobby/scr_goto_lobby.yy",},"order":2,},
     {"id":{"name":"scr_get_hover","path":"scripts/scr_get_hover/scr_get_hover.yy",},"order":0,},
     {"id":{"name":"scr_goto_mp_game","path":"scripts/scr_goto_mp_game/scr_goto_mp_game.yy",},"order":4,},
+    {"id":{"name":"scr_verify_ip_format","path":"scripts/scr_verify_ip_format/scr_verify_ip_format.yy",},"order":23,},
     {"id":{"name":"sp_player","path":"sprites/sp_player/sp_player.yy",},"order":0,},
     {"id":{"name":"protobuild_encode_direct","path":"scripts/protobuild_encode_direct/protobuild_encode_direct.yy",},"order":9,},
     {"id":{"name":"protobuild_size","path":"scripts/protobuild_size/protobuild_size.yy",},"order":15,},
