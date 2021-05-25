@@ -1,7 +1,8 @@
 /// @description main lockstep functionality
 
 // don't run too-far ahead
-var max_late = get_timer() - 1000000*(1+frame_skip)*(1+input_delay)/room_speed;
+//var max_late = get_timer() - 1000000*(1+frame_skip)*(1+input_delay)/room_speed;
+var max_late = get_timer() - 1000000*(1+frame_skip)/room_speed;
 if(frame_time_next < max_late) {
 	frame_time_next = max_late;
 }
@@ -132,6 +133,7 @@ if(get_timer() >= frame_time_next) {
 			// do we have all the inputs for this frame?
 			if(num_inputs == session_players) {
 				debug_text += "Frame " + string(frame_number) + " normal";
+				debug_text += " (" + string(frame_skip + 1) + ")";
 				show_debug_message(debug_text)
 					
 				// perform for regular frame for all players
@@ -179,7 +181,7 @@ if(get_timer() >= frame_time_next) {
 			// get inputs
 			if(lag == false) { // not lagged, new step, grab input
 				// get new frame input
-				var frame = frame_number+predict_number+input_delay;
+				var frame = frame_number + predict_number + input_delay;
 				scr_collect_inputs(frame)
 				if(frame % (ping_skip + 1) == 0) {
 					scr_send_ping(frame);
@@ -188,7 +190,7 @@ if(get_timer() >= frame_time_next) {
 				
 			// frame tracking
 			var buffer_left = input_latest_frame - frame_number;
-			show_debug_message("Buffer: "+string(buffer_left)+" ahead");
+			show_debug_message("Buffer: " + string(buffer_left) + " ahead");
 			if(buffer_left < 0) { // slow down if ahead by too much
 				show_debug_message("Track --");
 				frame_time_next += 0.2*1000000*(frame_skip + 1)/room_speed
