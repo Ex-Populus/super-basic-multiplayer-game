@@ -2,8 +2,9 @@
 
 width = 280;
 height = 80;
+clicked = false;
 
-text = "Single Player";
+text = "";
 
 hoverVal = 0;
 
