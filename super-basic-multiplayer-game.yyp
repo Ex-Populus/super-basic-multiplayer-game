@@ -5,6 +5,7 @@
     {"id":{"name":"rm_lobby","path":"rooms/rm_lobby/rm_lobby.yy",},"order":1,},
     {"id":{"name":"scr_cb_ping","path":"scripts/scr_cb_ping/scr_cb_ping.yy",},"order":6,},
     {"id":{"name":"protobuild_buffer_extend","path":"scripts/protobuild_buffer_extend/protobuild_buffer_extend.yy",},"order":2,},
+    {"id":{"name":"scr_nonalphanumeric_string","path":"scripts/scr_nonalphanumeric_string/scr_nonalphanumeric_string.yy",},"order":21,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":6,},
     {"id":{"name":"netcode_create_connection","path":"scripts/netcode_create_connection/netcode_create_connection.yy",},"order":3,},
     {"id":{"name":"scr_send_inputs","path":"scripts/scr_send_inputs/scr_send_inputs.yy",},"order":14,},
