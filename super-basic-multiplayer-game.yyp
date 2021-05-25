@@ -44,6 +44,7 @@
     {"id":{"name":"protobuild_add_msg","path":"scripts/protobuild_add_msg/protobuild_add_msg.yy",},"order":0,},
     {"id":{"name":"protobuild_buffer","path":"scripts/protobuild_buffer/protobuild_buffer.yy",},"order":1,},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":5,},
+    {"id":{"name":"scr_ip_string_only","path":"scripts/scr_ip_string_only/scr_ip_string_only.yy",},"order":22,},
     {"id":{"name":"protobuild_new","path":"scripts/protobuild_new/protobuild_new.yy",},"order":14,},
     {"id":{"name":"obj_input","path":"objects/obj_input/obj_input.yy",},"order":2,},
     {"id":{"name":"scr_cb_player_sync","path":"scripts/scr_cb_player_sync/scr_cb_player_sync.yy",},"order":8,},
