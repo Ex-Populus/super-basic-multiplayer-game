@@ -1,5 +1,5 @@
 /// @description  Spawn player at either a spawn point, or a random location in the room
-/// @argument     number - spawn point number
+/// @argument     *number - optional player number
 /// @return       returns instance number of spawned player
 function scr_spawn_player() {
 
