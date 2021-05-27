@@ -1,6 +1,6 @@
 /// @description render label text
 
-if (scr_verify_ip_format(ipBoxIpString)) {
+if (scr_verify_ip_format(ipString)) {
 	draw_set_color(c_lime);
 } else {
 	draw_set_color(c_red);

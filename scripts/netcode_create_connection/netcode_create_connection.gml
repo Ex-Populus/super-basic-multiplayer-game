@@ -24,10 +24,10 @@ function netcode_create_connection() {
 	else {
 		show_error("Invalid argumnet count", true);	
 	}
-	if(argument_count > 3) callback_rx = argument[3]
-	if(argument_count > 4) callback_c_ok = argument[4];
-	if(argument_count > 5) callback_dc = argument[5];
-	if(argument_count > 6) callback_c_fail = argument[6];	
+	if (argument_count > 3) callback_rx = argument[3];
+	if (argument_count > 4) callback_c_ok = argument[4];
+	if (argument_count > 5) callback_dc = argument[5];
+	if (argument_count > 6) callback_c_fail = argument[6];	
 
 	with(obj_connection) {
 		var socket = network_create_socket(type);

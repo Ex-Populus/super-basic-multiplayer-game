@@ -27,17 +27,21 @@
 
 socket_list = ds_list_create();
 
-// connection state machine, probably more complex than necessary, but does keep thing sclean
+// connection state machine, probably more complex than necessary, but does keep things clean
 enum STATE {
+	init,
+	server_hosting,
 	relay_connect,
 	relay_connecting,
 	relay_connected,
 	finished_hang
 }
 
-conn_state = STATE.relay_connect;
-debug_text = "Undefined";
+//conn_state = STATE.relay_connect;
+conn_state = STATE.init;
+debug_text = "No connection";
 //server_addr = "35.196.130.86";
-server_addr = "127.0.0.1";
+//server_addr = "127.0.0.1";
+server_addr = undefined;
 server_port = 11000
 server_socket = undefined;

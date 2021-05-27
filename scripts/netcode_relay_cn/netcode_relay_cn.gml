@@ -5,9 +5,12 @@ function netcode_relay_cn() {
 		if(conn_state == STATE.relay_connecting) {
 			conn_state = STATE.relay_connected;
 			show_debug_message("Server Connected")
-			//if(room != rm_staging) {
-			//	room_goto(rm_staging);
-			//}
+			
+			// TODO: (RN) need some kind of response from 
+			// the server before moving into the rm_mp_game?
+			if(room != rm_mp_game) {
+				room_goto(rm_mp_game);
+			}
 		}
 	}
 
